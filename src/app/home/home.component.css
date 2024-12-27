@@ -1,0 +1,32 @@
+section{
+    background-color: #1ABC9C;
+}
+section img{
+    width: 20%;
+}
+section h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.i{
+    margin: 10px;
+    position: relative;
+}
+.i::after {
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+}
+.i::before{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+}

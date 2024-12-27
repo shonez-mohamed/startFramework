@@ -1,0 +1,31 @@
+section{
+    background-color: #1ABC9C;
+}
+section h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.i{
+    margin: 10px;
+    position: relative;
+}
+.i::after {
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+   
+}
+.i::before{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    right: 60px;
+    bottom: 10px; 
+
+}
